@@ -5,7 +5,33 @@
   <head>
     <link href="css/output.css" rel="stylesheet" />
   </head>
-  <body>
-    <button class="btn btn-primary">Test</button>
+  <body class="bg-base-100 text-base-content">
+    <section
+      class="flex flex-col-reverse md:flex-row items-center justify-between gap-8 max-w-5xl mx-auto py-16 px-6"
+    >
+      <div class="flex-1">
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">
+          Hi, I'm <span class="text-primary">Ahmad</span>, a Full-Stack
+          Developer
+        </h1>
+        <p class="text-lg md:text-xl mb-6">
+          Computer engineer building full-stack web apps with Node.js, Express
+          and Tailwind.
+        </p>
+        <div class="flex gap-10 mt-6">
+          <a href="#projects" class="btn btn-primary btn-lg"
+            >View my projects</a
+          >
+          <a href="#contact" class="btn btn-outline btn-primary btn-lg"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <img
+        src="images/profile.png"
+        alt="Photo of Ahmad"
+        class="rounded-full w-56 h-56 object-cover md:h-80 md:w-80"
+      />
+    </section>
   </body>
 </html>
