@@ -217,8 +217,75 @@
       </div>
     </section>
 
-    <section id="contact" class="scroll-mt-16 max-w-5xl mx-auto py-16 px-6">
-      <h2 class="text-3xl font-bold">Contact</h2>
+    <section id="contact" class="scroll-mt-16 bg-base-200">
+      <div class="max-w-xl mx-auto py-16 px-6">
+        <h2 class="text-3xl font-bold mb-2">Contact me</h2>
+        <p class="mb-8">
+          Have a question or an internship opportunity? Send me a message.
+        </p>
+
+        <form
+          action="https://formspree.io/f/xaeoljbd"
+          method="POST"
+          class="flex flex-col gap-4"
+        >
+          <label class="form-control">
+            <span class="label-text mb-1">Name</span>
+            <input
+              type="text"
+              name="name"
+              placeholder="Your name"
+              class="input input-bordered w-full"
+              required
+            />
+          </label>
+
+          <label class="form-control">
+            <span class="label-text mb-1">Email</span>
+            <input
+              type="email"
+              name="email"
+              placeholder="you@example.com"
+              class="input input-bordered w-full"
+              required
+            />
+          </label>
+
+          <label class="form-control">
+            <span class="label-text mb-1">Message</span>
+            <textarea
+              name="message"
+              placeholder="Write your message..."
+              class="textarea textarea-bordered w-full h-32"
+              required
+            ></textarea>
+          </label>
+
+          <button type="submit" class="btn btn-primary">Send message</button>
+        </form>
+      </div>
     </section>
+
+    <footer class="footer footer-center bg-base-300 text-base-content p-6">
+      <nav class="flex gap-6">
+        <a
+          href="https://github.com/AhmadSweid946"
+          target="_blank"
+          rel="noopener"
+          class="link link-hover"
+          >GitHub</a
+        >
+        <a
+          href="https://www.linkedin.com/in/ahmad-sweid"
+          target="_blank"
+          rel="noopener"
+          class="link link-hover"
+          >LinkedIn</a
+        >
+      </nav>
+      <aside>
+        <p>© 2026 Ahmad Sweid. All rights reserved.</p>
+      </aside>
+    </footer>
   </body>
 </html>
