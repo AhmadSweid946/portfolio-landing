@@ -24,3 +24,12 @@ toggles.forEach((toggle) => {
   });
 });
 
+
+const menuLinks = document.querySelectorAll(".dropdown-content a");
+
+menuLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    document.activeElement.blur();
+  });
+});
+
