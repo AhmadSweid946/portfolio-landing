@@ -163,8 +163,58 @@
       </div>
     </section>
 
-    <section id="projects" class="scroll-mt-16 max-w-5xl mx-auto py-16 px-6">
-      <h2 class="text-3xl font-bold">Projects</h2>
+    <section id="projects" class="scroll-mt-16 bg-base-100">
+      <div class="max-w-5xl mx-auto py-16 px-6">
+        <h2 class="text-3xl font-bold mb-8">Projects</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!-- Card 1: Blog Manager -->
+          <div
+            class="card bg-base-200 shadow-sm hover:shadow-xl transition-shadow"
+          >
+            <figure>
+              <img
+                src="images/blogmanager.png"
+                alt="Blog Manager app screenshot"
+                class="w-full object-cover"
+              />
+            </figure>
+            <div class="card-body">
+              <h3 class="card-title">Blog Manager</h3>
+              <p>
+                A web app where you can create, read, edit and delete blog
+                posts. Built with Node.js, Express, PostgreSQL and EJS
+                templates.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <span class="badge badge-outline">Node.js</span>
+                <span class="badge badge-outline">Express</span>
+                <span class="badge badge-outline">PostgreSQL</span>
+                <span class="badge badge-outline">EJS</span>
+              </div>
+              <div class="card-actions justify-end mt-4">
+                <a href="#" class="btn btn-primary">View project</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Next Project -->
+          <div class="card bg-base-200 shadow-sm">
+            <div class="card-body">
+              <h3 class="card-title">Next Project</h3>
+              <p>
+                Coming soon. A full-stack app with user login and a PostgreSQL
+                database.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <span class="badge badge-outline">React</span>
+                <span class="badge badge-outline">Node.js</span>
+                <span class="badge badge-outline">PostgreSQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="contact" class="scroll-mt-16 max-w-5xl mx-auto py-16 px-6">
