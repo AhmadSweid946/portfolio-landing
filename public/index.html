@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ahmad Sweid, a full-stack developer building web apps with Node.js, Express and Tailwind." />
     <title>Ahmad | Full-Stack Developer</title>
     <link href="css/output.css" rel="stylesheet" />
   </head>
@@ -21,6 +22,7 @@
         <label class="swap swap-rotate">
           <!-- this hidden checkbox controls the state -->
           <input
+          aria-label="Toggle dark mode"
             type="checkbox"
             class="theme-controller theme-toggle"
             value="dark"
@@ -54,6 +56,7 @@
         <label class="swap swap-rotate">
           <!-- this hidden checkbox controls the state -->
           <input
+          aria-label="Toggle dark mode"
             type="checkbox"
             class="theme-controller theme-toggle"
             value="dark"
@@ -132,7 +135,7 @@
         </div>
       </div>
       <img
-        src="images/profile.png"
+        src="images/profile.jpg"
         alt="Photo of Ahmad"
         class="rounded-full w-56 h-56 object-cover md:h-80 md:w-80"
       />
@@ -147,6 +150,7 @@
             src="images/officepic.jpg"
             alt="Photo of Ahmad"
             class="aspect-square rounded-box w-full max-w-sm mx-auto object-cover"
+            loading="lazy"
           />
 
           <div>
@@ -232,9 +236,10 @@
           >
             <figure>
               <img
-                src="images/blogmanager.png"
+                src="images/blogmanager.jpg"
                 alt="Blog Manager app screenshot"
                 class="w-full object-cover"
+                loading="lazy"
               />
             </figure>
             <div class="card-body">
