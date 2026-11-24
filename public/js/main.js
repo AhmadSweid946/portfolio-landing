@@ -33,3 +33,19 @@ menuLinks.forEach((link) => {
   });
 });
 
+const form = document.querySelector("form");
+
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const response = await fetch(form.action, {
+    method: "POST",
+    body: new FormData(form),
+    headers: { Accept: "application/json" },
+  });
+  if (response.ok) {
+    form.reset();
+    alert("Thanks! Your message was sent.");
+  } else {
+    alert("Something went wrong. Please try again.");
+  }
+});
