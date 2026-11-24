@@ -21,17 +21,15 @@ HTML, Tailwind CSS v4, DaisyUI, JavaScript, Formspree, Netlify, Git and GitHub
 
 ## Plain CSS vs Tailwind
 
-With plain CSS, I had to get stucked in the big dicumentation hell but with Tailwind I could build faster cleaner and in more logical interestong way"
-
+With plain CSS, I spent a lot of time jumping between files and documentation. With Tailwind, I built faster and kept everything in the HTML. The hardest part of Tailwind was learning the class names, because you don't always want a pre-built component. For a bigger project, I would choose Tailwind and DaisyUI because they make the coding faster and more consistent.
 
 ## What I learned
 
-With plain CSS, I had to get stucked in the big dicumentation hell but with Tailwind I could build faster cleaner and in more logical interestong way"
-"The hardest part of Tailwind was to know all the needed stuff, because not all the time u need a builduped component"
-"For a bigger project, I would choose TailWind and DaisyUI because of it make the coding easier and easier.
-"last but not least i learned how to deploy and test this small project in netlify "https://ahmad-sweid.netlify.app/" and how to test with light house report making me polishing the project before ceploy it;
-
-## Run it locally
+- How to use the Git branch workflow: branch, commit, merge and push.
+- How to build a mobile-first responsive layout with Tailwind and DaisyUI.
+- How to save a theme choice with JavaScript and localStorage.
+- How to compress images and run Lighthouse to improve performance and accessibility.
+- How to deploy a site on Netlify and connect a contact form with Formspree.
 
     npm install
     npm run dev
